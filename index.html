@@ -22,17 +22,28 @@
                     <a href="sedes.html">Sedes</a>
                     <a href="#Masterclass">Masterclass</a>
                     <a href="#Invitados">Invitados</a>
-                    <a href="#Convocatoria">Convocatoria</a>
+                    <a href="#Convocatoria">1°Edición</a>
                     <a href="#somos">¿Quines somos?</a>
                     <a href="#Contacto">Contacto</a>
                 </div>
-                <button class="menu-button">
+                <button class="menu-button" onclick="toggleMenu()">
                     <div></div>
                     <div></div>
                     <div></div>
                 </button>
+
             </div>
+
         </nav>
+        <ul class="menu-list" id="menu-list">
+            <li><a href="sedes.html">Sedes</a></li>
+            <li><a href="#Masterclass">Masterclass</a></li>
+            <li><a href="#Invitados">Invitados</a></li>
+            <li><a href="#Convocatoria">1°Edición</a></li>
+            <li><a href="#somos">¿Quines somos?</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+     
     </header>
 
     <main class="inicio">
@@ -54,52 +65,96 @@
 
     <section class="sedes">
          <div class="sedes__contenido">
-            <p class="texto__titulos">Sedes</p>
-            <div class="sedes__contenedor__card__ex">
-                <div class="sedes__contenedor__card">
+            <p class="texto__titulos__linea">Masterclass</p>
 
-                    <div class="sedes__card" >
-                        <div>
-                            <img src="assets/Mesa de trabajo 1.png" alt="Foro Thaay">
+                <div class="alinear__masterclass">
+                <div class="sedes__contenedor__card__ex">
+                    <section class="container">   
+                        <div class="slider-wrapper">
+                            <div class="slider">
+                                <img id="slide-1" src="assets/slide2.png">
+                                <img id="slide-2" src="assets/slide4.jpg" >
+                                <img id="slide-3" src="assets/slide3.jpg" >
+                
+                            </div>
+                            <div class="slider-nav">
+                                <a href="#slide-1"></a>
+                                <a href="#slide-2"></a>
+                                <a href="#slide-3"></a>
+                
+                            </div>
+                
                         </div>
-                        <div class="Sedes__card__texto">
-                            <p>Foro Cultural</p>
-                            <p>Tiempo y Espacio Thaay</p>
-                            <a href="sedes.html">Ver más</a>
-                        </div>
-                    </div>
-
-                    <div class="sedes__card" >
-                        <div>
-                            <img src="assets/Mesa de trabajo 2.png" alt="Foro Thaay">
-                        </div>
-                        <div class="Sedes__card__texto">
-                            <p>Foro Cultural</p>
-                            <p>Tiempo y Espacio Thaay</p>
-                            <a href="sedes.html">Ver más</a>
-                        </div>
-                    </div>
-
-                    <div class="sedes__card" >
-                        <div class="sedes__card__imagen">
-                            <img src="assets/Mesa de trabajo 1.png" alt="Foro Thaay">
-                        </div>
-                        <div class="Sedes__card__texto">
-                            <p>Foro Cultural</p>
-                            <p>Tiempo y Espacio Thaay</p>
-                            <a href="sedes.html">Ver más</a>
-                        </div>
-                    </div>
+                    </section>
+                
                 </div>
-             </div>
+            </div>
          </div>
-        <div class="sedes__imagenes">
-              
-         </div>
+      
     </section>
 
-  
-  
+    <section class="sedes">
+        <div class="sedes__contenido">
+           <p class="texto__titulos__linea">Sedes</p>
+           <div class="sedes__contenedor__card__ex">
+               <div class="sedes__contenedor__card">
+
+                   <div class="sedes__card" >
+                       <div>
+                           <img src="assets/Mesa de trabajo 1.png" alt="Foro Thaay">
+                       </div>
+                       <div class="Sedes__card__texto">
+                           <p>Foro Cultural</p>
+                           <p>Tiempo y Espacio Thaay</p>
+                           <a href="sedes.html">Ver más</a>
+                       </div>
+                   </div>
+
+                   <div class="sedes__card" >
+                       <div>
+                           <img src="assets/Mesa de trabajo 2.png" alt="Foro Thaay">
+                       </div>
+                       <div class="Sedes__card__texto">
+                           <p>Foro Cultural</p>
+                           <p>Tiempo y Espacio Thaay</p>
+                           <a href="sedes.html">Ver más</a>
+                       </div>
+                   </div>
+
+                   <div class="sedes__card" >
+                       <div class="sedes__card__imagen">
+                           <img src="assets/Mesa de trabajo 1.png" alt="Foro Thaay">
+                       </div>
+                       <div class="Sedes__card__texto">
+                           <p>Foro Cultural</p>
+                           <p>Tiempo y Espacio Thaay</p>
+                           <a href="sedes.html">Ver más</a>
+                       </div>
+                   </div>
+               </div>
+            </div>
+        </div>
+   </section>
+
+   <footer>
+        <div class="footer__contenido">
+
+            <div class="footer__contenido__contenedor">
+                <div class="footer__contenido__texto">
+                    <p>Umbrales - festival de cine</p>
+                    <p>umbralesfestival@gmail.com</p>
+                    <a href=""  class="custom-link-inv" target="_blank">Instagram</a> <br><br>
+                    <a href=""  class="custom-link-inv" target="_blank">Facebook</a><br><br> 
+                </div>
+                <div class="footer__contenido__logo">
+                    <img src="assets/Isotipo-blanco.png" alt="logo-umbrales">
+                </div>
+             </div>
+
+        </div>
+   </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
