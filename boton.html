@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Dinámico</title>
+    <link rel="stylesheet" href="boton.css">
+    <script src="boton.js"></script>
+
+</head>
+<body>
+    <div class="menu">
+        <button onclick="changeContent('proyecto1')">Inicio</button>
+        <button onclick="changeContent('proyecto2')">Acerca de</button>
+        <button onclick="changeContent('proyecto3')">Servicios</button>
+        <button onclick="changeContent('proyecto4')">Contacto</button>
+    </div>
+    
+    <div id="proyecto1" class="content active">
+        <h2>proyecto1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+    <div id="proyecto2" class="content">
+        <h2>proyecto2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+    <div id="proyecto3" class="content">
+        <h2>proyecto3</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+    <div id="proyecto4" class="content">
+        <h2>proyecto4</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+    
+
+</body>
+</html>
