@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.menu {
+    margin-bottom: 20px;
+}
+.menu button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+.content {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 20px;
+    min-height: 100px;
+}
+.active {
+    display: block;
+}

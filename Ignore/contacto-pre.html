@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacto.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section class="formcontato" id="contacto">
+        <div  class="formcontato__contacto">
+            <!-- <div class="formcontato--esquerda">
+                <img class="formcontato__img" src="assets/contact_image.png">
+            </div> -->
+            <div class="formcontato__text">
+                <h2 class="formcontato__title">Contacto</h2>
+                <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
+                <h3 class="formcontato__subtext">Completa el siguiente formulario y me pondré en contacto contigo lo antes posible. </h3>
+                <form class="formcontato__form" name="form" action="https://formsubmit.co/olidaniel666@gmail.com" method="POST">
+                    <div class="input-container">
+                        <input class="formcontato__input" type="text" name="nombre" id="nombre" placeholder="Nombre" required data-tipo="nombre">
+                        <label class="input-label" for="nombre">Nombre</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="input-container">
+                        <input class="formcontato__input" type="email" name="email" id="email" placeholder="E-mail" required data-tipo="email">
+                        <label class="input-label" for="email">E-mail</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="input-container">
+                        <input class="formcontato__input" type="text" name="asunto" id="asunto" placeholder="Asunto" required data-tipo="asunto">
+                        <label class="input-label" for="asunto">Asunto</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="input-container">
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" required data-tipo="mensaje"></textarea>
+                        <label class="textarea-label" for="mensaje">Mensaje</label>
+                    </div>
+                    <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+</body>
+</html>
