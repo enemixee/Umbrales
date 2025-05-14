@@ -4,5 +4,6 @@ function toggleMenu() {
         menuList.style.display = 'none';
     } else {
         menuList.style.display = 'block';
+        document.body.style.overflowY = 'hidden';
     }
 }
