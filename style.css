@@ -1086,3 +1086,45 @@ body, html {
 
 
 
+    /* Preloader */
+    #preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 100vw;
+      background-color: var(--color-1);
+      color: var(--color-3);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+
+    .logo {
+      width: 120px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .loader-text {
+      margin-bottom: 10px;
+      font-size: 1rem;
+      letter-spacing: 1px;
+    }
+
+    .barra-carga {
+      width: 300px;
+      height: 10px;
+      background-color: #e01452;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .progreso {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #e2275f, #d83163);
+      transition: width 0.2s ease;
+    }
