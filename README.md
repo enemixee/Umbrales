@@ -6,9 +6,9 @@
 
 [Visita el sitio oficial](https://umbralesfest.com/) 
 
-<img src="assets/Umbrales.png" alt="Logo de Umbrales" width="200">
-<img src="assets/Umbrales.png" alt="Logo de Umbrales" width="200">
-<img src="assets/Umbrales.png" alt="Logo de Umbrales" width="200">
+<img src="assets/Umbrales.png" alt="Logo de Umbrales" width="350">
+<img src="assets/Umbrales2.png" alt="Logo de Umbrales" width="300">
+<img src="assets/Umbrales3.png" alt="Logo de Umbrales" width="250">
 
 ## 📁 Estructura del proyecto
 
