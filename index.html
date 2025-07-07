@@ -3,26 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="assets/Isotipo-blanco.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
     <title>Umbrales</title>
 </head>
 <body>
-    <div id="preloader">
-    
-        <img src="assets/Isotipo-blanco.png" alt="Logo del sitio" class="logo">
-
-        <!-- Texto opcional -->
-        <!-- <div class="loader-text">Cargando sitio...</div> -->
-
-        <!-- Barra de carga -->
+    <section id="preloader">
         <div class="barra-carga">
-        <div class="progreso" id="barraProgreso"></div>
+            <div class="progreso" id="barraProgreso"></div>
         </div>
-  </div>
-  <script src="preloader.js"></script>
+        <img src="assets/Isotipo-blanco.png" alt="Logo del sitio" class="logo">
+    </section>
+    <script src="js/preloader.js"></script>
     <header>
         <nav class="navegacion__contenedor">
             <div class="logo">
@@ -34,7 +28,7 @@
                 <div class="enlases__texto">
                     <a href="sedes.html">Sedes</a>
                     <a href="masterclass.html">Masterclass</a>
-                    <!-- <a href="#Invitados">Invitados</a> -->
+
                     <a href="1ra-edicion.html">1ª Edición</a>
                     <a href="quienes-somos.html">¿Quiénes somos?</a>
                     <a href="contacto.html">Contacto</a>
@@ -49,17 +43,14 @@
         <ul class="menu-list" id="menu-list">
             <li><a href="sedes.html">Sedes</a></li>
             <li><a href="masterclass.html">Masterclass</a></li>
-            <!-- <li><a href="#Invitados">Invitados</a></li> -->
             <li><a href="1ra-edicion.html">1ª Edición</a></li>
             <li><a href="quienes-somos.html">¿Quiénes somos??</a></li>
             <li><a href="contacto.html">Contacto</a></li>
         </ul>
-     
     </header>
-
     <main class="inicio">
         <div class="inicio__animacion">
-            <script class="sketch1" src="assets/sketch.js" async></script>
+            <script class="sketch1" src="js/sketch.js" async></script>
         </div>
         <div class="inicio__texto">
             <div class="inicio__texto__umbrales" >
@@ -75,27 +66,14 @@
     </main>
 
     <section class="sedes">
-         <div class="contenido__contenedor__inc1">
+        <div class="contenido__contenedor__inc1">
             <p class="texto__titulos__linea">1ª Edición</p>
-
-                <div class="alinear__masterclass">
-                 
-                    <div class="video-container">
-                        <iframe  src="https://www.youtube.com/embed/oq6qBI2bAFU?si=rPx26vZtPWMih2NQ" title="YouTube video player" frameborder="0" allow="allowfullscreen; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>                
-                        </iframe>
-                     
-                    </div>
-                    <!-- <div class="inicio__cedes__card1">
-                         <img src="assets/Cartel Umbrales 2025.jpg" alt="1ra-edicion" >
-                         <p>Cartel Oficial 2025</p>
-                    </div>
-                    <div class="inicio__cedes__card2">
-                        <img src="assets/cineteca-inicio-1.png" alt="1ra-edicion" >
-                        <p>Cedes</p>
-                   </div> -->
+            <div class="alinear__masterclass">
+                <div class="video-container">
+                    <iframe  src="https://www.youtube.com/embed/oq6qBI2bAFU?si=rPx26vZtPWMih2NQ" title="YouTube video player" frameborder="0" allow="allowfullscreen; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-         </div>
-      
+            </div>
+        </div>
     </section>
 
     <section class="sedes">
@@ -110,7 +88,6 @@
                             </div>
                             <div class="Sedes__card__texto">
                                 <p>Cartel Oficial 2025</p>
-                                <!-- <a href="sedes.html">Ver más</a> -->
                             </div>
                         </div>
                     </a>
@@ -121,7 +98,6 @@
                             </div>
                             <div class="Sedes__card__texto">
                                 <p>Sedes</p>
-                                <!-- <a href="sedes.html">Ver más</a> -->
                             </div>
                         </div>
                     </a>
@@ -132,7 +108,6 @@
                             </div>
                             <div class="Sedes__card__texto">
                                 <p>Masterclass</p>
-                                <!-- <a href="sedes.html">Ver más</a> -->
                             </div>
                         </div>
                     </a>
@@ -143,7 +118,6 @@
 
    <footer>
         <div class="footer__contenido">
-
             <div class="footer__contenido__contenedor">
                 <div class="footer__contenido__texto">
                     <p>Umbrales - festival de cine</p>
@@ -158,11 +132,7 @@
 
         </div>
    </footer>
-
-    <script src="script.js"></script>
-
+    <script src="js/script.js"></script>
 </body>    
-
-    <script src="carrusel.js"></script>
-
+<script src="js/carrusel.js"></script>
 </html>
